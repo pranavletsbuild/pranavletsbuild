@@ -1,6 +1,10 @@
 import sys
 
-try:
-    print("Hi my name is:", sys.argv[1])
-except IndexError:
-    print("Please provide your name as a command-line argument.")
+if len(sys.argv)<2:
+    print("less no of arguments not allowed ")
+elif len(sys.argv)>2:
+    print("more no of arguments not allowed")
+else:
+    print("Hello! my name is",sys.argv[1])
+
+
