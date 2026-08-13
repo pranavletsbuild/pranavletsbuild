@@ -1,10 +1,13 @@
 import sys
 
+def greet(name):
+    print("Hello! my name is", name)
+
 if len(sys.argv)<2:
-    print("less no of arguments not allowed ")
+    print("Please provide your name. ")
 elif len(sys.argv)>2:
-    print("more no of arguments not allowed")
+    print("Please provide only one name")
 else:
-    print("Hello! my name is",sys.argv[1])
+    greet(sys.argv[1])
 
 
