@@ -1,5 +1,4 @@
-def main():
-    x=[23,45.89,60,56,"H",3.3,45,"U","W"]
+def main(x):
     expcase(x)
 
 def expcase(w):
@@ -12,4 +11,5 @@ def expcase(w):
         else:
             print("This is not an integer",item)
 
-main()
+x=[23,45.89,60,56,"H",3.3,45,"U","W"]
+main(x)
