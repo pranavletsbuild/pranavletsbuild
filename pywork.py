@@ -15,4 +15,3 @@ else:
     person = Person(sys.argv[1])
     person.greet()
 
-
