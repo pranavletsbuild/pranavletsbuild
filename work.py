@@ -6,7 +6,7 @@ class NumberCheck:
             print("Negative")
         else:
             print("Zero")
-
+num=int(input("Enter a number:"))
 checker=NumberCheck()
 checker.check_num(num)
 
