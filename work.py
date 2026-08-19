@@ -6,7 +6,13 @@ class NumberCheck:
             print("Negative")
         else:
             print("Zero")
-num=int(input("Enter a number:"))
-checker=NumberCheck()
-checker.check_num(num)
+while True:
+    try:
+        num=float(input("Enter a number:"))
+    except ValueError:
+        print("please enter a valid input")
+    else:
+        checker=NumberCheck()
+        checker.check_num(num)
+        break
 
