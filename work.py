@@ -1,8 +1,10 @@
 class NumberCheck:
-    def check_num(self,num):
-        if num>0:
+    def __init__(self,num):
+        self.num=num
+    def check_num(self):
+        if self.num>0:
             print("positive")
-        elif num<0:
+        elif self.  num<0:
             print("Negative")
         else:
             print("Zero")
@@ -12,7 +14,7 @@ while True:
     except ValueError:
         print("please enter a valid input")
     else:
-        checker=NumberCheck()
-        checker.check_num(num)
+        checker=NumberCheck(num)
+        checker.check_num()
         break
 
