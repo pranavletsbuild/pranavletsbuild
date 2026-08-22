@@ -13,6 +13,8 @@ class NumberCheck:
             print("Even")
         else:
             print("Odd")
+    def square(self):
+        print("square ",self.num*self.num)
 
 while True:
     try:
@@ -23,5 +25,6 @@ while True:
         checker=NumberCheck(num)
         checker.check_num()
         checker.even_odd()
+        checker.square()
         break
 
