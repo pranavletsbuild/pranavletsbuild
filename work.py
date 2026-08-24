@@ -4,7 +4,7 @@ class NumberCheck:
     def check_num(self):
         if self.num>0:
             print("positive")
-        elif self.  num<0:
+        elif self.num<0:
             print("Negative")
         else:
             print("Zero")
@@ -15,7 +15,8 @@ class NumberCheck:
             print("Odd")
     def square(self):
         print("square ",self.num*self.num)
-
+    def cube(self):
+        print("cube ",self.num*self.num*self.num)
 while True:
     try:
         num=float(input("Enter a number:"))
@@ -26,5 +27,6 @@ while True:
         checker.check_num()
         checker.even_odd()
         checker.square()
+        checker.cube()
         break
 
