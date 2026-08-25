@@ -16,4 +16,6 @@ class numcheck:
                 print("This is not an integer",item)
 
 x=[23,45.89,60,56,"H",3.3,45,"U","W"]
+y=[12,3.4,56,7.8,90,"Hello",45.6,78,"World"]
 main(x)
+main(y)
