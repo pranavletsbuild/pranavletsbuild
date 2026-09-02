@@ -1,14 +1,13 @@
 from calc import square
+n=int
 
 def main():
     test_square()
 
 def test_square():
-    if square(2)!=4:
-        print("2 square  was not 4")
-    if square(3)!=9:
-        print("3 squre was not 9 ")
-
+    if square(n)!=n*n:
+        print(f"{n} square  was not {n*n}")
+   
 if __name__=="__main__":                    
     main()
     
